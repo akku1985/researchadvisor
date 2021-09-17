@@ -1,0 +1,43 @@
+footer{
+    margin: 0;
+    padding: 50px 0 50px;
+    background: $cyan-dark;
+    text-align: center;
+    font-family: $font-lato; 
+    color: $color-white;
+
+    @include for-tablet-900{
+
+        padding-bottom: 80px;
+    }
+	 
+    .footer-link{ position: relative; display: flex;justify-content: space-evenly; text-align: left;
+     li{
+         a{
+            font-size: $font-14; color:$color-white; margin: 10px 0px;
+            text-decoration: none;
+            display: block;
+         }
+     }
+    }
+
+	.footer-soc
+    {
+        
+            margin-top: 35px;
+            border-top: 1px solid #f8f8f83d;
+            padding-top: 20px;
+        
+        ul{position: relative; display: flex;justify-content: center; text-align: left;margin: 0px;
+            padding: 0px;
+            li{ margin: 10px 20px;border: 1px solid #fff;
+                padding: 0px 8px 5px 10px;
+                border-radius: 8px; background: $color-white;}
+        }
+    }
+h4
+    {
+        font-size: $font-14;
+        font-weight: 400;
+    }
+}

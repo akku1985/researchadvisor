@@ -1,0 +1,26 @@
+// cbb-color-variables
+$cyan-color: #34d0cc ;
+$cyan-dark: #0b7285 ;
+$cyan-light:#15aabf ;
+$blue-dark:#103D5B;
+$black:#000000;
+$gray-dark:#353940;
+$color-white:#fff;
+
+$display-inline: inline-block;
+$display-block: block;
+$display-flex: flex;
+$relative-pos:relative;
+$sprite : url('../images/sprite.png');
+
+$font-100: calc(50px + (100 - 22) * ((100vw - 300px) / (1900 - 300)));
+$font-64:  calc(34px + (64 - 34) * ((100vw - 300px) / (1900 - 300)));
+$font-20:20px;
+$font-30:30px;
+$font-22:22px;
+$font-18:18px;
+$font-16:16px;
+$font-14:14px;
+
+
+
