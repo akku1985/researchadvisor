@@ -74,7 +74,7 @@ function _login() {
         <>
            <img className="logo" alt="" src={logo} /> 
            <div id="container">
-           <NormalLoginForm />
+          
            </div>
         </>
     )

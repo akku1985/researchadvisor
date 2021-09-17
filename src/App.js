@@ -10,7 +10,7 @@ import _footer from './inc/_header';
 
 import _user_profile from './user_profile/user_profile';
 import _soc_profile from './soc_profile/soc_profile';
-import _login from './login/login';
+
 
 
 
@@ -21,7 +21,7 @@ function App() {
       <_footer/>
         <Route path="/" exact component={_user_profile} />
         <Route path="/soc" component={_soc_profile} />
-        <Route path="/login" component={_login} />
+        
         <_header/>
         </Router>      
     </div>
