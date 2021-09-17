@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/github.io/researchadvisor/static/css/main.250b961c.chunk.css",
+    "main.js": "/github.io/researchadvisor/static/js/main.756934e5.chunk.js",
+    "main.js.map": "/github.io/researchadvisor/static/js/main.756934e5.chunk.js.map",
+    "runtime-main.js": "/github.io/researchadvisor/static/js/runtime-main.bfdd55b6.js",
+    "runtime-main.js.map": "/github.io/researchadvisor/static/js/runtime-main.bfdd55b6.js.map",
+    "static/js/2.564746fe.chunk.js": "/github.io/researchadvisor/static/js/2.564746fe.chunk.js",
+    "static/js/2.564746fe.chunk.js.map": "/github.io/researchadvisor/static/js/2.564746fe.chunk.js.map",
+    "static/js/3.2e4679f0.chunk.js": "/github.io/researchadvisor/static/js/3.2e4679f0.chunk.js",
+    "static/js/3.2e4679f0.chunk.js.map": "/github.io/researchadvisor/static/js/3.2e4679f0.chunk.js.map",
+    "index.html": "/github.io/researchadvisor/index.html",
+    "static/css/main.250b961c.chunk.css.map": "/github.io/researchadvisor/static/css/main.250b961c.chunk.css.map",
+    "static/js/2.564746fe.chunk.js.LICENSE.txt": "/github.io/researchadvisor/static/js/2.564746fe.chunk.js.LICENSE.txt",
+    "static/media/1.844ea09d.png": "/github.io/researchadvisor/static/media/1.844ea09d.png",
+    "static/media/2.203ea544.png": "/github.io/researchadvisor/static/media/2.203ea544.png",
+    "static/media/3.2ad0de16.jpg": "/github.io/researchadvisor/static/media/3.2ad0de16.jpg",
+    "static/media/style.css": "/github.io/researchadvisor/static/media/profile-banner.36e2278b.png",
+    "static/media/bell.c26a0091.svg": "/github.io/researchadvisor/static/media/bell.c26a0091.svg",
+    "static/media/book.fab57978.jpg": "/github.io/researchadvisor/static/media/book.fab57978.jpg",
+    "static/media/bookmark-fill.44d1c2c5.svg": "/github.io/researchadvisor/static/media/bookmark-fill.44d1c2c5.svg",
+    "static/media/chat-dots.4a7193d6.svg": "/github.io/researchadvisor/static/media/chat-dots.4a7193d6.svg",
+    "static/media/dots-menu.abac0831.svg": "/github.io/researchadvisor/static/media/dots-menu.abac0831.svg",
+    "static/media/envelope.f1ac3dc2.svg": "/github.io/researchadvisor/static/media/envelope.f1ac3dc2.svg",
+    "static/media/facebook.4d446026.svg": "/github.io/researchadvisor/static/media/facebook.4d446026.svg",
+    "static/media/image-fill.bd909e8f.svg": "/github.io/researchadvisor/static/media/image-fill.bd909e8f.svg",
+    "static/media/linkedin.2eda7bdd.svg": "/github.io/researchadvisor/static/media/linkedin.2eda7bdd.svg",
+    "static/media/logo.a356c7df.svg": "/github.io/researchadvisor/static/media/logo.a356c7df.svg",
+    "static/media/logout-circle.1289943d.svg": "/github.io/researchadvisor/static/media/logout-circle.1289943d.svg",
+    "static/media/photo.3de0c3cf.svg": "/github.io/researchadvisor/static/media/photo.3de0c3cf.svg",
+    "static/media/profile-img.812b52dc.jpg": "/github.io/researchadvisor/static/media/profile-img.812b52dc.jpg",
+    "static/media/search.d14852d6.svg": "/github.io/researchadvisor/static/media/search.d14852d6.svg",
+    "static/media/twit.db226d55.svg": "/github.io/researchadvisor/static/media/twit.db226d55.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfdd55b6.js",
+    "static/js/2.564746fe.chunk.js",
+    "static/css/main.250b961c.chunk.css",
+    "static/js/main.756934e5.chunk.js"
+  ]
+}
