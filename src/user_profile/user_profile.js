@@ -8,11 +8,13 @@ import _stats from "./stats";
 import _my_scholars from "./my_scholars";
 import _my_publications from "./my_publications";
 import _my_colloborators from "./my_colloborators"; 
+import _header from '../inc/_header';
+import _footer from '../inc/_footer';
 
 function _user_profile() {
   return (
     <>
-     
+     <_header/>
       <_top_banner />
       <div class="profile_mid">
         <div class="container">
@@ -32,7 +34,7 @@ function _user_profile() {
           </div>
         </div>
       </div>
-     
+      <_footer/>
     </>
   );
 }

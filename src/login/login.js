@@ -1,16 +1,24 @@
-import React from 'react'
-import logo from '../asset/image/logo.svg';
-
+import React from 'react';
 import ReactDOM from 'react-dom';
+
+import _footer from '../inc/_footer';
 import { Form, Input, Button, Checkbox } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
+import { Row, Col } from 'antd';
+import logo from '../asset/image/logo.svg';
 
-const NormalLoginForm = () => {
-  const onFinish = (values) => {
-    console.log('Received values of form: ', values);
-  };
+const onFinish = (values) => {
+  console.log('Received values of form: ', values);
+};
 
+function NormalLoginForm () {
   return (
+   <div className="mai-login">
+    
+    <Row className="login">
+      
+      <Col span={8}> <img className="logo" alt="" src={logo} /></Col>
+      <Col span={8}>
     <Form
       name="normal_login"
       className="login-form"
@@ -62,22 +70,13 @@ const NormalLoginForm = () => {
         Or <a href="">register now!</a>
       </Form.Item>
     </Form>
+    </Col>
+  
+   
+    </Row>
+    <_footer/>
+    </div>
   );
-};
-
-ReactDOM.render(<NormalLoginForm />, document.getElementById('container'));
-
-
-
-function _login() {
-    return (
-        <>
-           <img className="logo" alt="" src={logo} /> 
-           <div id="container">
-          
-           </div>
-        </>
-    )
 }
 
-export default _login
+export default NormalLoginForm

@@ -1,0 +1,22 @@
+.mai-login{
+  background-color: $cyan-color;
+  display: flex;
+    flex-direction: column;
+.login-form {
+    max-width: 300px;
+  }
+  .login-form-forgot {
+    float: right;
+  }
+  .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  .login-form-button {
+    width: 100%;
+  }
+  .login{ min-height: 400px; justify-content: space-evenly; background: #fff;
+    align-content: space-around;margin:10%; padding: 2%;
+  .logo{ width: 80%;margin-top: 20%; }
+  }
+
+}

@@ -225,7 +225,7 @@ a:hover {
 
 .left_panel .left_panel_following h3 {
   font-size: 16px;
-  border-bottom: 2px solid #34d0cc;
+  border-bottom: 2px solid #b4bdbc;
   padding-bottom: 10px;
   margin-bottom: 15px;
 }
@@ -615,11 +615,27 @@ h3 {
   margin: 0px 20px 0px 0px;
   font-size: 12px;
   border-bottom: 1px solid #236967;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
+  position: relative;
+}
+
+.profile_banner ul li ._1EEDX {
+  margin: 0px;
 }
 
 .profile_banner ul li:hover {
   border-bottom: 2px solid #ccc;
+}
+
+.profile_banner ul li:hover:after {
+  content: '';
+  z-index: 25;
+  right: -23px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 0px;
+  background: url("./../image/edit.svg") no-repeat left;
 }
 
 .stats,
@@ -852,5 +868,49 @@ h3 {
   font-size: 16px;
   margin: 0px 8px 0px 0px;
   font-weight: 700;
+}
+
+.mai-login {
+  background-color: #34d0cc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mai-login .login-form {
+  max-width: 300px;
+}
+
+.mai-login .login-form-forgot {
+  float: right;
+}
+
+.mai-login .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+
+.mai-login .login-form-button {
+  width: 100%;
+}
+
+.mai-login .login {
+  min-height: 400px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: #fff;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  margin: 10%;
+  padding: 2%;
+}
+
+.mai-login .login .logo {
+  width: 80%;
+  margin-top: 20%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -10,7 +10,7 @@ import _footer from './inc/_header';
 
 import _user_profile from './user_profile/user_profile';
 import _soc_profile from './soc_profile/soc_profile';
-
+import NormalLoginForm from './login/login';
 
 
 
@@ -18,11 +18,9 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <_footer/>
         <Route path="/" exact component={_user_profile} />
         <Route path="/soc" component={_soc_profile} />
-        
-        <_header/>
+        <Route path="/login" component={NormalLoginForm} />
         </Router>      
     </div>
   );
