@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/researchadvisor/static/css/main.cd7e474c.chunk.css",
-    "main.js": "/researchadvisor/static/js/main.756934e5.chunk.js",
-    "main.js.map": "/researchadvisor/static/js/main.756934e5.chunk.js.map",
-    "runtime-main.js": "/researchadvisor/static/js/runtime-main.860909c5.js",
-    "runtime-main.js.map": "/researchadvisor/static/js/runtime-main.860909c5.js.map",
-    "static/js/2.564746fe.chunk.js": "/researchadvisor/static/js/2.564746fe.chunk.js",
-    "static/js/2.564746fe.chunk.js.map": "/researchadvisor/static/js/2.564746fe.chunk.js.map",
-    "static/js/3.2e4679f0.chunk.js": "/researchadvisor/static/js/3.2e4679f0.chunk.js",
-    "static/js/3.2e4679f0.chunk.js.map": "/researchadvisor/static/js/3.2e4679f0.chunk.js.map",
+    "main.css": "/researchadvisor/static/css/main.487c06a0.chunk.css",
+    "main.js": "/researchadvisor/static/js/main.c43191d1.chunk.js",
+    "main.js.map": "/researchadvisor/static/js/main.c43191d1.chunk.js.map",
+    "runtime-main.js": "/researchadvisor/static/js/runtime-main.df12f518.js",
+    "runtime-main.js.map": "/researchadvisor/static/js/runtime-main.df12f518.js.map",
+    "static/css/2.76e3afa8.chunk.css": "/researchadvisor/static/css/2.76e3afa8.chunk.css",
+    "static/js/2.531b4305.chunk.js": "/researchadvisor/static/js/2.531b4305.chunk.js",
+    "static/js/2.531b4305.chunk.js.map": "/researchadvisor/static/js/2.531b4305.chunk.js.map",
+    "static/js/3.12a0afce.chunk.js": "/researchadvisor/static/js/3.12a0afce.chunk.js",
+    "static/js/3.12a0afce.chunk.js.map": "/researchadvisor/static/js/3.12a0afce.chunk.js.map",
     "index.html": "/researchadvisor/index.html",
-    "static/css/main.cd7e474c.chunk.css.map": "/researchadvisor/static/css/main.cd7e474c.chunk.css.map",
-    "static/js/2.564746fe.chunk.js.LICENSE.txt": "/researchadvisor/static/js/2.564746fe.chunk.js.LICENSE.txt",
+    "static/css/2.76e3afa8.chunk.css.map": "/researchadvisor/static/css/2.76e3afa8.chunk.css.map",
+    "static/css/main.487c06a0.chunk.css.map": "/researchadvisor/static/css/main.487c06a0.chunk.css.map",
+    "static/js/2.531b4305.chunk.js.LICENSE.txt": "/researchadvisor/static/js/2.531b4305.chunk.js.LICENSE.txt",
     "static/media/1.844ea09d.png": "/researchadvisor/static/media/1.844ea09d.png",
     "static/media/2.203ea544.png": "/researchadvisor/static/media/2.203ea544.png",
     "static/media/3.2ad0de16.jpg": "/researchadvisor/static/media/3.2ad0de16.jpg",
@@ -33,9 +35,10 @@
     "static/media/twit.db226d55.svg": "/researchadvisor/static/media/twit.db226d55.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.860909c5.js",
-    "static/js/2.564746fe.chunk.js",
-    "static/css/main.cd7e474c.chunk.css",
-    "static/js/main.756934e5.chunk.js"
+    "static/js/runtime-main.df12f518.js",
+    "static/css/2.76e3afa8.chunk.css",
+    "static/js/2.531b4305.chunk.js",
+    "static/css/main.487c06a0.chunk.css",
+    "static/js/main.c43191d1.chunk.js"
   ]
 }
