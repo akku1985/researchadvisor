@@ -913,4 +913,215 @@ h3 {
   width: 80%;
   margin-top: 20%;
 }
+
+.mai-login .login .ant-col-8 {
+  border-right: 1px solid #ccc;
+}
+
+.mai-login .login .ant-input-affix-wrapper {
+  width: 93%;
+}
+
+.mai-login .login .ant-col.ant-col-12 .ant-form {
+  margin-top: 14%;
+}
+
+.qa .profile_banner button {
+  border: 0px;
+  padding: 10px 20px;
+  margin: 0px 5px -1px 5px;
+  background: #fff;
+  color: #34d0cc;
+  font-size: 14px;
+}
+
+.qa .profile_banner button:hover {
+  background: #f1f1f1;
+}
+
+.qa .profile_banner p {
+  font-size: 14px;
+  padding-left: 5px;
+  margin-top: 5px;
+}
+
+.qa .profile_banner .questions-block {
+  margin-left: 25%;
+}
+
+.qa-mid-wrap {
+  margin-top: 65px;
+}
+
+.qa-mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 25px;
+  -webkit-box-shadow: 0 0px 2px #0000002e, 0 2px 2px #0000001f;
+          box-shadow: 0 0px 2px #0000002e, 0 2px 2px #0000001f;
+}
+
+.qa-mid p {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.qa-mid .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.qa-mid .profile p {
+  background: #f3f3f3;
+  padding-left: 10px;
+  font-size: 14px;
+  float: right;
+}
+
+.qa-mid .profile-name {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.qa-mid .profile-name h4 {
+  width: auto;
+  display: contents;
+  font-size: 20px;
+}
+
+.qa-mid .profile-pic img {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.qa-mid .qa-sec {
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.qa-mid .qa-sec .likesection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.qa-mid .qa-sec .likesection span {
+  font-size: 12px;
+  padding: 0px;
+}
+
+.qa-mid .qa-sec .follow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.qa-mid .qa-sec .follows {
+  display: block;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.qa-mid .qa-sec p {
+  margin-top: 20px;
+}
+
+.qa-mid .qa-sec h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.qa-mid .qa-sec span {
+  padding: 5px 8px;
+  margin: 2px;
+  font-size: 14px;
+}
+
+.qa-mid .qa-sec .new {
+  background-color: #00a39e;
+  color: #fff;
+}
+
+.qa-mid .qa-sec .question {
+  background-color: #c5e8e5;
+  color: #007478;
+}
+
+.qa-mid .qa-sec .answers {
+  background-color: rgba(0, 0, 0, 0);
+  color: #00a39e;
+  -webkit-box-shadow: inset 0 0 0 1px #00a39e;
+          box-shadow: inset 0 0 0 1px #00a39e;
+}
+
+.qa-mid .qa-sec .more {
+  font-size: 14px;
+  float: right;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #adadad;
+  padding: 2px 10px;
+  margin-top: -5px;
+}
+
+.qa-mid .qa-sec .qa-relat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.qa-mid .qa-sec .qa-relat span {
+  background-color: #ddd;
+  color: #555;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.qa-mid .qa-sec .qa-relat a {
+  font-size: 14px;
+  border: 1px solid #007bff;
+  padding: 5px 10px;
+}
+
+.qa-mid .qa-sec .qa-relat .col-sm-12 {
+  margin: 10px 0px;
+  padding: 4px;
+}
+
+.qa-mid .qa-sec .ant-avatar-group span {
+  padding: 0px;
+}
+
+.l-side {
+  float: left;
+}
+
+.r-side {
+  float: right;
+}
 /*# sourceMappingURL=style.css.map */

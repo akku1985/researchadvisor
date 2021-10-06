@@ -1,8 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+
 
 function _like_comment(props) {
     return (
+      
         <div className="likesection">
             
             <div className="like">

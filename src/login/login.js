@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { Link } from 'react-router-dom';
 
 import _footer from '../inc/_footer';
 import { Form, Input, Button, Checkbox } from 'antd';
@@ -67,7 +67,8 @@ function NormalLoginForm () {
         <Button type="primary" htmlType="submit" className="login-form-button">
           Log in
         </Button>
-        Or <a href="">register now!</a>
+        Or <Link to="/register"> register now!</Link>
+      
       </Form.Item>
     </Form>
     </Col>

@@ -17,8 +17,9 @@ export default class _header extends Component {
                 <div className="header-wrap">                
                 <ul className="menu-left">
                 <img className="logo" alt="" src={logo} />
-                    <li><Link to="/">  Home </Link></li>
-                    <li><Link to="/soc"> Question</Link></li>
+                    <li><Link to="/soc">  Home </Link></li>
+                    <li><Link to="/profile"> profile</Link></li>
+                    <li><Link to="/"> Login</Link></li>
                     <li><Link to="/"> Collaboration</Link></li>
                     <li><Link to="/">Jobs</Link></li>
                     <li><Link to="/"> My Circle</Link></li>
