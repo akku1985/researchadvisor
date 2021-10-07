@@ -11,6 +11,7 @@ import _soc_profile from './soc_profile/soc_profile';
 import NormalLoginForm from './login/login';
 import RegistrationForm from './login/register';
 import question_and_discussion from './activity/question_and_discussion';
+import _article_main from './article/article_main'; 
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/login" component={NormalLoginForm} />
         <Route path="/register" component={RegistrationForm} />
         <Route path="/topics" component={question_and_discussion} />
+        <Route path="/article" component={_article_main} />
         </Router>      
     </div>
   );
