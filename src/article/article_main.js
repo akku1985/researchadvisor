@@ -8,7 +8,7 @@ function _article_main() {
     return (
         <>
          <_header/>
-                <div class="container">
+                <div class="container article">
                         <div className="row">           
                             <div className="col-sm-12"><_article_top_banner/></div> 
                             <div className="col-sm-12">

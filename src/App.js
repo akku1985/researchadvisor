@@ -14,6 +14,8 @@ import question_and_discussion from './activity/question_and_discussion';
 import _article_main from './article/article_main'; 
 import _stats from './article/stats';
 import _comments from './article/comments';
+import _references from './article/references';
+import _citations from './article/citations';
 
 
 
@@ -29,6 +31,9 @@ function App() {
         <Route path="/article" component={_article_main} />
         <Route path="/stats" component={_stats} />
         <Route path="/comments" component={_comments} />
+        <Route path="/citations" component={_citations} />
+        <Route path="/references" component={_references} />
+
         
         </Router>      
     </div>

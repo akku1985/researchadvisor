@@ -10,7 +10,7 @@ const text = <span>prompt text</span>;
 
 function _article_top_banner() {
   return (
-    <div className="row">
+    <div className="row  top">
       <div class="col-sm-8">
         <span className="">Article </span>
         <button className="">Full-text available</button>
@@ -18,19 +18,16 @@ function _article_top_banner() {
           Shock Processing of Amino Acids Leading to Complex
           Structures-Implications to the Origin of Life
         </h3>
-        <p>December 2020</p>
-        <p>Molecules 25(23)</p>
-        <p>
-          DOI: <Link to=""> 10.3390/molecules25235634 Home </Link>
-        </p>
-        <p>
-          License<Link to=""> CC BY 4.0</Link>
-        </p>
-        <p>
-          Labs: <Link to=""> Jayaram Vishakantaiah's Lab</Link>
+        <ul className="info">
+          <li> <p>December 2020</p> </li>
+          <li> <p>Molecules 25(23)</p> </li>
+          <li><p>DOI: <Link to=""> 10.3390/molecules25235634 Home </Link></p> </li>
+        <li><p> License<Link to=""> CC BY 4.0</Link>        </p> </li>
+           <li> <p> Labs: <Link to=""> Jayaram Vishakantaiah's Lab</Link>
           <Link to=""> Hugh Hill's Lab</Link>
-        </p>
-        <ul>
+        </p> </li>
+        </ul>
+        <ul className="profile-list">
           <li>
             
             <img className="profile_img_area" alt="" src={profile_image} />

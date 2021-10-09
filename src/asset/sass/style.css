@@ -1124,4 +1124,77 @@ h3 {
 .r-side {
   float: right;
 }
+
+.article .top h3 {
+  font-weight: 300;
+}
+
+.article .top span {
+  background-color: #00a39e;
+  color: #fff;
+  padding: 5px 8px;
+  margin: 2px;
+  font-size: 14px;
+}
+
+.article .top button {
+  background-color: #c5e8e5;
+  color: #007478;
+  padding: 3px 8px;
+  margin: 2px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 0px;
+  outline: 0px;
+}
+
+.article .top .info {
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.article .top .info li {
+  margin: 0px;
+  padding: 0px;
+  min-width: 50%;
+}
+
+.article .top .info li p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+}
+
+.article .top .info li p a {
+  text-decoration: none;
+}
+
+.article .top .profile-list {
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.article .top .profile-list li {
+  min-width: 25%;
+  font-size: 14px;
+}
+
+.article .top .profile-list li .profile_img_area {
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+  padding: 0px;
+  border: 0px;
+  display: inline-block;
+}
 /*# sourceMappingURL=style.css.map */
