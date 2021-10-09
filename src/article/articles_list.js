@@ -1,5 +1,5 @@
 import React from 'react'
-import profile_image from "../asset/image/profile-img.jpg";
+import profile_image from "../asset/image/book.jpg";
 import { Link } from "react-router-dom";
 import _like_comment from '../inc/_like_comment';
 

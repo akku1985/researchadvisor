@@ -12,6 +12,8 @@ import NormalLoginForm from './login/login';
 import RegistrationForm from './login/register';
 import question_and_discussion from './activity/question_and_discussion';
 import _article_main from './article/article_main'; 
+import _stats from './article/stats';
+import _comments from './article/comments';
 
 
 
@@ -25,6 +27,9 @@ function App() {
         <Route path="/register" component={RegistrationForm} />
         <Route path="/topics" component={question_and_discussion} />
         <Route path="/article" component={_article_main} />
+        <Route path="/stats" component={_stats} />
+        <Route path="/comments" component={_comments} />
+        
         </Router>      
     </div>
   );

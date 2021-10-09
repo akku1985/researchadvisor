@@ -14,7 +14,7 @@ function question_and_discussion() {
               <_header/>
               <_qa_head/>
               <div class="container">
-           <div class="row">
+              <div class="row">
                 <div className="col-sm-3">
                <_qa_left/>
                 </div>
