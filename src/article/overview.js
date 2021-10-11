@@ -10,7 +10,7 @@ const { TabPane } = Tabs;
 function _overview() {
     return (
         <>
-           <div className="col-sm-12 article">
+           <div className="col-sm-12 article-overview">
                <div className="head">Abstract and figures</div>
                <div className="copy">
                The building blocks of life, amino acids, are believed to have been synthesized in the 
@@ -27,7 +27,7 @@ function _overview() {
 
                </div> 
 
-               <div className="col-sm-12">
+               <div className="col-sm-12 article-tab">
                <Tabs defaultActiveKey="2">
     <TabPane
       tab={

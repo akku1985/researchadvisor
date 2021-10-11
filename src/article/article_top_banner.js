@@ -53,48 +53,65 @@ function _article_top_banner() {
       </div>
 
       <div class="col-sm-4">
-        <ul>
+        <ul className="banner-right">
           <li>
-           
+          <Link to="" className="article-link">
             <p> Research Interest </p>
+            <img alt="" src={menu} />            
             <Tooltip placement="top" title={text}>
               <Button>Top</Button>
             </Tooltip>
-            <img alt="" src={menu} /> <p>8.2</p>
+            </Link>
+            <Link to="" className="article-link">
+            <img alt="" src={menu} />
+             <p>8.2</p>
+             </Link>
           </li>
           <li>
+          <Link to="" className="article-link">
             <p>Citations</p>
             <img className="profile_img_area" alt="" src={profile_image} />
+            </Link>
+            <Link to="" className="article-link">
             <span>2</span>
+            </Link>
           </li>
           <li>
+          <Link to="" className="article-link">
            <p>Recommendations</p>
             <img className="profile_img_area" alt="" src={profile_image} />
+            </Link>
+            <Link to="" className="article-link">
            <span>0 new</span>
            <p>1</p>
+           </Link>
           </li>
           <li>
-          <p>Recommendations</p>
+          <Link to="" className="article-link">
+          <p>Reads</p>
           <Tooltip placement="top" title={text}>
               <Button>Top</Button>
             </Tooltip>
+            </Link>
+            <Link to="" className="article-link">
            <span>0 new</span>
            <p>1</p>
+           </Link>
           </li>
         </ul>
-        <button>See details</button>
+        <button className="more-bu">See details</button>
       </div>
 
 
       <div class="col-sm-12">
-<ul>
-<li>Overview</li>
-<li>Stats</li>
-<li>Comments</li>
-<li>Citations<span>5</span></li>
-<li>Download</li>
-<li>Share</li>
-<li>More</li>
+<ul className="article-top-link">
+<li><Link to="" className="link">Overview </Link></li>
+<li><Link to="" className="link">Stats </Link></li>
+<li><Link to="" className="link">Comments </Link></li>
+<li><Link to="" className="link">Citations<span>5</span> </Link></li>
+<li><Link to="" className="link">Download </Link></li>
+<li><Link to="" className="link">Share </Link></li>
+<li><Link to="" className="link">More </Link></li>
 </ul>
 
       </div>

@@ -8,24 +8,33 @@ function  _articles_list() {
         <div className="col-sm-12 article-list">
           <div className="head">  Similar research</div>
           <div className="copy">
+            <div>
           <img className="profile_img_area" alt="" src={profile_image} />
           <img className="profile_img_area" alt="" src={profile_image} />
           <img className="profile_img_area" alt="" src={profile_image} />
+          </div>
               <h3>Effects of Glycine, Water, Ammonia, and Ammonium Bicarbonate on the Oligomerization of Methionine</h3>
+           <div>
               <Link to="" className="article">Article</Link>
               <Link to="" className="links"> Full-text available</Link>
+              </div>
               <span>June 2017Origins of Life and Evolution of Biospheres</span>
-              <ul>
-                  <li> <img className="profile_img_area" alt="" src={profile_image} /> Takeshi Kakegawa</li>
-                  <li> <img className="profile_img_area" alt="" src={profile_image} /> Takeshi Kakegawa</li>
-                  <li> <img className="profile_img_area" alt="" src={profile_image} /> Takeshi Kakegawa</li>
+            
+              <ul className="profile-list">
+                  <li> <img className="profile_img" alt="" src={profile_image} /> Takeshi Kakegawa</li>
+                  <li> <img className="profile_img" alt="" src={profile_image} /> Takeshi Kakegawa</li>
+                  <li> <img className="profile_img" alt="" src={profile_image} /> Takeshi Kakegawa</li>
               </ul>
+            
               <p>The abiotic oligomerization of amino acids may have created primordial, protein-like biological catalysts on the early Earth. Previous studies have proposed and evaluated the potential of diagenesis for the amino acid oligomerization, simulating the</p>
+            
               <ul>
                   <li> <Link to="" className="article">Article</Link></li>
                   <li><Link to="" className="article">Article</Link></li>
               </ul>
+             
               <hr/>
+             <div>
               <div className="col-sm-6">
               <button>Download</button>
               </div>
@@ -53,7 +62,7 @@ function  _articles_list() {
 </svg>
 <span>Follow</span>
 </div>
-
+</div>
         </div>
               </div>
           </div>
