@@ -11,7 +11,7 @@ const text = <span>prompt text</span>;
 function _article_top_banner() {
   return (
     <div className="row  top">
-      <div class="col-sm-8">
+      <div class="col-sm-8 pl-0">
         <span className="">Article </span>
         <button className="">Full-text available</button>
         <h3>
@@ -27,7 +27,7 @@ function _article_top_banner() {
           <Link to=""> Hugh Hill's Lab</Link>
         </p> </li>
         </ul>
-        <ul className="profile-list">
+        <ul className="profile-list ">
           <li>
             
             <img className="profile_img_area" alt="" src={profile_image} />
@@ -103,12 +103,13 @@ function _article_top_banner() {
       </div>
 
 
-      <div class="col-sm-12">
+      <div class="col-sm-12 p-0">
 <ul className="article-top-link">
-<li><Link to="" className="link">Overview </Link></li>
-<li><Link to="" className="link">Stats </Link></li>
-<li><Link to="" className="link">Comments </Link></li>
-<li><Link to="" className="link">Citations<span>5</span> </Link></li>
+<li><Link to="article" className="link">Overview </Link></li>
+<li><Link to="stats" className="link">Stats </Link></li>
+<li><Link to="comments" className="link">Comments </Link></li>
+<li><Link to="citations" className="link">Citations<span>5</span> </Link></li>
+<li><Link to="references" className="link">References </Link></li>
 <li><Link to="" className="link">Download </Link></li>
 <li><Link to="" className="link">Share </Link></li>
 <li><Link to="" className="link">More </Link></li>

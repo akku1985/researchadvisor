@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 import { Select } from 'antd';
 import { Line } from '@ant-design/charts';
 import { Checkbox, Row, Col } from 'antd';
+import _header from '../inc/_header';
+import _footer from '../inc/_footer';
+import _article_top_banner from './article_top_banner';
 
+import profile_image from "../asset/image/profile-img.jpg";
 
 const { Option } = Select;
 
@@ -63,14 +67,21 @@ function _stats() {
 
 
     return (
-        <div className="article-stats">
-            <div className="col-sm-12 article-stats-overview">
-            <h2>Stats overview</h2>
-            <ul>
+      <>
+      <_header/>
+      <div class="container article ">         
+                            <div className="col-sm-12 m-0 p-0"><_article_top_banner/></div> 
+        <div className="article-stats m-3">
+        <div class="card mt-3">
+            <div className="col-sm-12 article-stats-overview card-body">
+             
+            <h4 className="card-title">Stats overview</h4>
+            <hr/>
+            <ul className="list-group list-group-horizontal">
 
-                <li>
+                <li className="list-group-item">
                     <div className="block">
-                        <h3>0.6</h3>
+                        <h5>0.6</h5>
                         <p>Research Interest</p>
                         <Link to="" className="links"> More details</Link>
                     </div>
@@ -81,9 +92,9 @@ function _stats() {
                     </div>
                 </li>
 
-                <li>
+                <li className="list-group-item">
                     <div className="block">
-                        <h3>0.6</h3>
+                        <h5>0.6</h5>
                         <p>Research Interest</p>
                         <Link to="" className="links"> More details</Link>
                     </div>
@@ -94,9 +105,9 @@ function _stats() {
                     </div>
                 </li>
 
-                <li>
+                <li className="list-group-item">
                     <div className="block">
-                        <h3>0.6</h3>
+                        <h5>0.6</h5>
                         <p>Research Interest</p>
                         <Link to="" className="links"> More details</Link>
                     </div>
@@ -107,9 +118,9 @@ function _stats() {
                     </div>
                 </li>
 
-                <li>
+                <li className="list-group-item">
                     <div className="block">
-                        <h3>0.6</h3>
+                        <h5>0.6</h5>
                         <p>Research Interest</p>
                         <Link to="" className="links"> More details</Link>
                     </div>
@@ -120,9 +131,9 @@ function _stats() {
                     </div>
                 </li>
 
-                <li>
+                <li className="list-group-item">
                     <div className="block">
-                        <h3>0.6</h3>
+                        <h5>0.6</h5>
                         <p>Research Interest</p>
                         <Link to="" className="links"> More details</Link>
                     </div>
@@ -134,10 +145,62 @@ function _stats() {
                 </li>
             </ul>
         </div>
-        
-        <div className="col-sm-12 article-stats-history">
-        <div className="col-sm-8 "> <h2>Stats history</h2></div>
-           
+        </div>
+        <div class="card mt-3">
+        <div className="col-sm-12 article-stats-history card-body">
+        <div className="col-sm-8 p-0"> <h4>Researchers who recommended this work</h4></div>
+        <hr/>
+     
+              <div className="row">
+              <div className="col-sm-4 p-0">
+           <div className="media border p-3 m-3">
+                         <img src={profile_image} alt="John Doe" className="mr-3  rounded-circle"/>
+                          <div className="media-body">
+                            <h6>John Doe <small><i>Posted on February 19, 2016</i></small></h6>
+                            <p>Lorem ipsum...</p>
+                            <span>John Doe </span>
+                            <p>Lorem ipsum...</p>
+                            <span>John Doe </span>
+                            <p>Lorem ipsum...</p>
+                          </div>
+              </div>
+              </div>
+
+              <div className="col-sm-4 p-0">
+           <div className="media border p-3 m-3">
+                         <img src={profile_image} alt="John Doe" className="mr-3  rounded-circle"/>
+                          <div className="media-body">
+                            <h6>John Doe <small><i>Posted on February 19, 2016</i></small></h6>
+                            <p>Lorem ipsum...</p>
+                            <span>John Doe </span>
+                            <p>Lorem ipsum...</p>
+                            <span>John Doe </span>
+                            <p>Lorem ipsum...</p>
+                          </div>
+              </div>
+              </div>
+              <div className="col-sm-4 p-0">
+           <div className="media border p-3 m-3">
+                         <img src={profile_image} alt="John Doe" className="mr-3 rounded-circle"/>
+                          <div className="media-body">
+                            <h6>John Doe <small><i>Posted on February 19, 2016</i></small></h6>
+                            <p>Lorem ipsum...</p>
+                            <span>John Doe </span>
+                            <p>Lorem ipsum...</p>
+                            <span>John Doe </span>
+                            <p>Lorem ipsum...</p>
+                          </div>
+              </div>
+              </div>
+              </div>
+        </div>
+        </div>
+
+        <div class="card mt-3">
+        <div className="col-sm-12 article-stats-history card-body">
+<div className="row">
+        <div className="col-sm-8 "> <h4>Stats history</h4></div>
+          
             <div className="col-sm-4 "> <Select
     showSearch
     style={{ width: 200 }}
@@ -155,10 +218,11 @@ function _stats() {
     <Option value="lucy">Lucy</Option>
     <Option value="tom">Tom</Option>
   </Select></div>
+  </div>
+  <hr/>
 
 
-
-  <div className="col-sm-8 "> 
+  <div className="col-sm-12 "> 
   
   <Checkbox.Group style={{ width: '100%' }} onChange={onChange}>
     <Row>
@@ -185,8 +249,11 @@ function _stats() {
   </div>
             </div>
 
-           
+            </div>   
+            </div>    
             </div>
+            <_footer/>
+            </>
     )
 }
 

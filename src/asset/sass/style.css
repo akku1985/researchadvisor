@@ -1133,6 +1133,7 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 15px;
 }
 
 .article .banner-right li {
@@ -1187,7 +1188,16 @@ h3 {
 }
 
 .article .top {
-  margin: 30px 0px;
+  margin: 0px 0px 30px 0px;
+}
+
+.article .top .col-sm-8 {
+  padding-top: 30px;
+}
+
+.article .top .col-sm-4 {
+  padding-top: 30px;
+  background: #cccccc14;
 }
 
 .article .top .more-bu {
@@ -1205,7 +1215,7 @@ h3 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 25px 0px;
-  padding: 25px 0px;
+  padding: 10px 0px;
   border-top: 1px solid #efefef;
   border-bottom: 1px solid #efefef;
 }
@@ -1278,6 +1288,9 @@ h3 {
 .article .top .profile-list li {
   min-width: 20%;
   font-size: 14px;
+  border: 1px solid #e7e7e7cc;
+  margin-right: 5px;
+  padding: 0px 5px;
 }
 
 .article .top .profile-list li .profile_img_area {
@@ -1351,6 +1364,15 @@ h3 {
           box-shadow: 0 0px 2px #0000002e, 0 2px 2px #0000001f;
 }
 
+.article .article-list h3 {
+  font-size: 24px;
+  padding: 10px 0px;
+  margin: 12px 0px;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
 .article .article-list .head {
   font-size: 20px;
   padding: 20px 30px;
@@ -1391,11 +1413,38 @@ h3 {
 }
 
 .article .article-list .copy .profile_img_area {
-  width: 150px;
-  height: 150px;
-  border: 5px solid #fff;
-  margin: 0;
+  width: 100px;
+  height: 100px;
+  border: 0px;
+  margin: 3px;
   float: left;
-  border-radius: 0px;
+  border-radius: 5px;
+}
+
+.article .rounded-circle {
+  width: 50px;
+}
+
+.article .citations .profile-list li .profile_img_area {
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+  padding: 0px;
+  border: 0px;
+  display: inline-block;
+}
+
+.article .citations .profile-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=style.css.map */

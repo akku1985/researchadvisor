@@ -2,6 +2,7 @@
   .banner-right {
     display: flex;
     flex-direction: column;
+    padding: 15px;
 
     li {
       display: flex;
@@ -41,7 +42,9 @@
   }
 
   .top {
-    margin: 30px 0px;
+    margin: 0px 0px 30px 0px;
+    .col-sm-8{ padding-top: 30px;}
+      .col-sm-4          {padding-top: 30px;            background: #cccccc14;        }
     .more-bu {
       float: right;
       margin-top: 30px;
@@ -51,7 +54,7 @@
       align-content: center;
       justify-content: space-between;
       margin: 25px 0px;
-      padding: 25px 0px;
+      padding: 10px 0px;
       border-top: 1px solid #efefef;
       border-bottom: 1px solid #efefef;
       .link {
@@ -107,9 +110,14 @@
       padding: 0px;
       display: flex;
       flex-wrap: wrap;
+      
       li {
-        min-width: 20%;
-        font-size: 14px;
+          min-width: 20%;
+          font-size: 14px;
+          border: 1px solid #e7e7e7cc;
+          margin-right: 5px;
+          padding: 0px 5px;
+      
         .profile_img_area {
           width: 20px;
           height: 20px;
@@ -162,6 +170,14 @@
     border: 1px solid #ccc;
     margin-bottom: 25px;
     box-shadow: 0 0px 2px #0000002e, 0 2px 2px #0000001f;
+    h3 {
+      font-size: 24px;
+      padding: 10px 0px;
+      margin: 12px 0px;
+      font-weight: 700;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+  }
     .head {
       font-size: 20px;
       padding: 20px 30px;
@@ -183,17 +199,29 @@
     }
 
     .profile_img_area {
-      width: 150px;
-      height: 150px;
-      border: 5px solid #fff;
-      margin: 0;float: left;
-    border-radius: 0px;
+      width: 100px;
+      height: 100px;
+      border: 0px;
+          margin: 3px;float: left;
+    border-radius: 5px;
   }
   }
     
 
  
 }
-
-
+.rounded-circle{width: 50px;}
+.citations .profile-list li .profile_img_area {
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+  padding: 0px;
+  border: 0px;
+  display: inline-block;
+}
+.citations .profile-list {
+  display: flex;
+  flex-direction: initial;
+  align-content: center;flex-wrap: wrap;
+}
 }
