@@ -19,10 +19,8 @@ export default class _header extends Component {
                 <img className="logo" alt="" src={logo} />
                     <li><Link to="/soc">  Home </Link></li>
                     <li><Link to="/profile"> profile</Link></li>
-                    <li><Link to="/"> Login</Link></li>
-                    <li><Link to="/"> Collaboration</Link></li>
                     <li><Link to="/">Jobs</Link></li>
-                    <li><Link to="/"> My Circle</Link></li>
+                    <li><Link to="/"> my lineage</Link></li>
                 </ul>
                 <ul className="menu-right">
                     <li> <img className="profile-img" alt="" src={pro_pik} />  </li>

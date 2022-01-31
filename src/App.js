@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Route path="/profile" exact component={_user_profile} />
+        <Route path="/" exact component={_user_profile} />
         <Route path="/soc" component={_soc_profile} />
         <Route path="/login" component={NormalLoginForm} />
         <Route path="/register" component={RegistrationForm} />

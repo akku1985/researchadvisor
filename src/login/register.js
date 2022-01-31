@@ -253,21 +253,20 @@ const RegistrationForm = () => {
       </Form.Item>
 
       <Form.Item
-        name="phone"
-        label="Phone Number"
+        name="research type"
+        label="type of research id"
         rules={[
           {
             required: true,
-            message: "Please input your phone number!",
+            message: "Please select research id!",
           },
         ]}
       >
-        <Input
-          addonBefore={prefixSelector}
-          style={{
-            width: "100%",
-          }}
-        />
+        <Select placeholder="select research id">
+          <Option value="male">google scholar</Option>
+          <Option value="female">orchid id</Option>
+          <Option value="other">Other</Option>
+        </Select>
       </Form.Item>
 
       
